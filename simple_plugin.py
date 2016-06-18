@@ -29,7 +29,7 @@ class Plugins:
         """load_plugins
         Loads the plugins from the folder specified in __init__
         params:
-            extentions: list: A list of file extensions to include.
+            extensions: list: A list of file extensions to include.
                               Defaults to .py files. It will attempt to load
                               them as a Python module no matter what file
                               extension it has.
