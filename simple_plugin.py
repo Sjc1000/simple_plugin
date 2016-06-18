@@ -25,7 +25,7 @@ class Plugins:
         if load_on_start:
             self.load_plugins()
 
-    def load_plugins(self, extentions=['.py']):
+    def load_plugins(self, extensions=['.py']):
         """load_plugins
         Loads the plugins from the folder specified in __init__
         params:
