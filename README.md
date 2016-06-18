@@ -36,4 +36,4 @@ for name, ref in plugins:
     print(name)
     ref.function()
 ```
-This will print the name of each plugin and run .function() from each plugin.
+This will print the name of each plugin and run function() from each plugin.
