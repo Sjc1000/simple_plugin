@@ -5,7 +5,7 @@ Useful for a plugin or command system.
 ## Usage
 
 ### Loading plugins
-```python3
+```python
 import simple_plugin
 
 plugins = simple_plugin.Plugins('folder/of/plugins/')
@@ -13,7 +13,7 @@ plugins = simple_plugin.Plugins('folder/of/plugins/')
 Thats all it takes to load a folder of plugins.
 
 ### Running plugins
-```python3
+```python
 import simple_plugin
 
 plugins = simple_plugin.Plugins('folder/of/plugins/')
@@ -28,7 +28,7 @@ Just use the name without the extension.
 
 ### Iterating over the plugins
 The plugin class supports iteration.
-```python3
+```python
 import simple_plugin
 
 plugins = simple_plugin.Plugins('folder/of/plugins/')
