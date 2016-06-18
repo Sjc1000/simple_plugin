@@ -32,7 +32,7 @@ class Plugins:
             extentions: list: A list of file extensions to include.
                               Defaults to .py files. It will attempt to load
                               them as a Python module no matter what file
-                              extention it has.
+                              extension it has.
         note: This method will temporarily move the working directory.
               It will move it back when it's done.
         """
@@ -40,7 +40,7 @@ class Plugins:
         current_path = os.getcwd()
         sys.path.insert(0, self.folder)
         for name in os.listdir(self.folder):
-            if (not any(name.endswith(ext) for ext in extentions) or
+            if (not any(name.endswith(ext) for ext in extensions) or
                     os.path.isdir(self.folder + name)):
                 continue
             fname = '.'.join(name.split('.')[:-1])
