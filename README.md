@@ -1,4 +1,7 @@
 # simple_plugin
+
+**THIS PROJECT HAS BEEN DEPRECIATED IN FAVOR OF https://github.com/Sjc1000/plugged**
+
 A simple class for loading and running external python files.
 Useful for a plugin or command system.
 
